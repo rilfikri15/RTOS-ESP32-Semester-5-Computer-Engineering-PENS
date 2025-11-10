@@ -24,7 +24,7 @@ void PotTask(void *parameter) {
   }
 }
 
-// LED Blink
+// LED
 void LedTask(void *parameter) {
   (void)parameter;
   pinMode(LED_PIN, OUTPUT);
